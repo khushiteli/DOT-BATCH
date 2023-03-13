@@ -1,0 +1,89 @@
+
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.box{
+    margin: 10%;
+    width: 700px;
+    height: 420px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+img{
+    height: 420px;
+    width: 300px;
+}
+
+.content{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #6c7289;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.tittle{
+    align-self: center;
+    letter-spacing: 8px;
+    padding: 10px;
+    color: #6c7289;
+}
+
+.heading{
+    color:black;
+    margin: 10px 22px;
+    font-size: 32px;
+}
+
+.text{
+    width: 80%;
+    font-size: 18px;
+    margin: 10px 20px;
+    font-style: italic;
+}
+
+.price{
+    margin: 19px;
+}
+
+.rprice{
+    color: #3c8067;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.wprice{
+    font-size:16px;
+    color:#6c7289;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+button{
+    background-color: #3c8067;
+    color:white;
+    align-self: center;
+    width: 150px;
+    border: none;
+    margin: 20px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 7px;
+}

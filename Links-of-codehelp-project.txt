@@ -1,0 +1,71 @@
+
+
+Tic-tac-toe app:
+
+https://codehelp-tictactoe.netlify.app
+
+
+DevDetective project :
+
+https://codehelp-devdetective.netlify.app/
+
+
+Weather app:
+
+https://codehelp-weather-app.netlify.app/
+
+
+Password generator:
+
+https://codehelp-password-generator.netlify.app/
+
+
+Modal project:
+
+https://codehelp-share-modal.netlify.app/
+
+
+Counter app:
+
+https://codehelp-counter-app.netlify.app/
+
+
+Discord Link:
+
+https://codehelp-discord-clone.netlify.app/
+
+
+RazorPay Website:
+
+https://codehelp-razorpay-clone.netlify.app/
+
+
+Portfolio Website:
+
+https://codehelp-portfolio-website.netlify.app/
+
+
+Modern Chair:
+
+https://codehelp-modern-chair-page.netlify.app/
+
+
+Figma Link:
+
+https://www.figma.com/file/yCb8S93CG1ckFBLeFQy98l/CodeHelp-Figma-Assignment--1
+
+
+Image Gallary:
+
+https://codehelp-image-gallery.netlify.app/
+
+
+Product Card:
+
+https://codehelp-product-card.netlify.app/
+
+
+Parallax Website:
+
+https://codehelp-parallax-website.netlify.app/
+

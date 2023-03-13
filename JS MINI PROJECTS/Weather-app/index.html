@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app | Khushi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <h1 id="heading">WEATHER APP</h1> 
+
+            <div class="btn-group">
+                <div class="tab" data-user-weather>
+                    Your Weather
+                </div>
+                <div class="tab" data-search-weather>
+                    Search Weather
+                </div>
+            </div>
+
+            <div class="form-container" data-search-form>
+                <form action="" class="input-feild">
+                    <input type="text" placeholder="Search for city..." search-city>
+                <button data-searchBtn class="btn">
+                    <img src="./assets/search.png" alt="" height="20" width="20">
+                </button>
+                </form>
+            </div>
+
+            <!-- error 404 content -->
+            <div class="sub-container api-error-container">
+                <img src="./assets/not-found.png" data-notFoundImg />
+                <p data-apiErrorText></p>
+                <button class="btn" data-apiErrorBtn>Retry</button>
+              </div>
+
+            <div class="weather-block">
+
+                <!-- initial ui it will ask for location permission -->
+                <div class="initial-ui subcontainer" data-user-location>
+                    <img src="./assets/location.png" alt="location" width="80" height="80">
+                    <h3 id="location-heading">Grant Location Access</h3>
+                    <p id="location-para">Allow Location TO Get Weather Information</p>
+                    <button class="btn" data-grant-access>GRANT ACCESS</button>
+                </div>
+
+                <!-- loading ui it will work in panding promise state -->
+                <div class="loading-ui" data-loading>
+                    <img src="./assets/loading.gif" alt="loding" width="150" height="150">
+                    <p>LOADING</p>
+                </div>
+                
+                <!-- user weather will show the weather of user -->
+                <div class="user-weather-ui subcontainer" data-weather-show>
+                    <div class="name">
+                        <p data-cityName></p>
+                        <img data-countyFlag>
+                    </div>
+                    <div data-weatherDescription></div>
+                    <div data-weatherIcon></div>
+                    <div data-cityTemp></div>
+                    <div class="box-container">
+                        <div class="box">
+                            <img src="./assets/wind.png" alt="">
+                            <p>WINDSPEED</p>
+                            <p data-windspeed></p>
+                        </div>
+                        <div class="box">
+                            <img src="./assets/humidity.png" alt="">
+                            <p>HUMIDITY</p>
+                            <p data-humidity></p>
+                        </div>
+                        <div class="box">
+                            <img src="./assets/cloud.png" alt="">
+                            <p>CLOUD</p>
+                            <p data-cloud></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

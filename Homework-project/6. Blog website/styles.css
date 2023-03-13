@@ -1,0 +1,112 @@
+
+@import url(https://fonts.google.com/specimen/Poiret+One);
+
+.wrapper{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    /* background-image: linear-gradient(120deg, #000428,#004e92); */
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+    /* background-image: linear-gradient(to right, 0%, black 100%); */
+    color: white;
+    /* text-shadow: 1px 1px rgb(175, 61, 61); */
+    font-family: 'Poiret One', cursive;
+}
+
+.container{
+    width: 90%;
+    max-width: 800px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    padding: 2% 10%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 5% 95%;
+    grid-template-areas: 
+    "hd hd"
+    "main sd";
+    /* gap: 1rem; */
+}
+
+p{
+    text-shadow: 1px 1px rgb(175, 61, 61);
+}
+
+header{
+    grid-area: hd;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+main{
+    grid-area: main;
+    padding-right: 2rem;
+}
+
+aside{
+    grid-area: sd;
+}
+
+a{
+    color: rgb(209, 166, 86);
+    text-decoration: none;
+    cursor: pointer;
+    font-style: italic;
+    font-family: cursive;
+}
+
+a:hover{
+    color: white;
+}
+
+header>h1{
+    color: rgb(209, 143, 62);
+    text-shadow: 2px 2px 2px bisque;
+    text-align: center;
+    font-size: 50px;
+    display: inline;
+}
+
+header>input[type]{
+    display: inline;
+    padding-top: 0%;
+    border: 1px solid black;
+    /* width: 80px; */
+    width: 5rem;
+    padding: 5px;
+    border-radius: 1rem;
+    color: black;
+    font-weight: 500;
+}
+
+main>h2 , aside>h2{
+    color: bisque;
+}
+
+.date{
+    font-family: 'Courier New', Courier, monospace;
+    /* margin-top: -20px; */
+    margin-top: -1.2rem ;
+    /* font-size: 13px; */
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.social{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 , h2 , h3 {
+    text-shadow: 1px 1px red;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+  }

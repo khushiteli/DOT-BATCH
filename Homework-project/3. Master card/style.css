@@ -1,0 +1,34 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.card{
+    border: 1px solid black;
+    padding: 1vh 1vw;
+    /* margin: 10%; */
+    box-shadow: 3px 8px 3px grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    /* height: 400px; */
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+#_1{
+    color: rgb(13, 84, 218);
+}
+
+#_3{
+    background-color: aqua;
+    border: 1px solid aqua;
+    color:rgb(255, 255, 255);
+}
