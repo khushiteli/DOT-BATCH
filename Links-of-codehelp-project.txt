@@ -1,5 +1,15 @@
 
 
+Testimonial slider:
+
+https://codehelp-testimonial-slider.netlify.app/
+
+
+Top courses:
+
+https://codehelp-top-courses.netlify.app/
+
+
 Tic-tac-toe app:
 
 https://codehelp-tictactoe.netlify.app
