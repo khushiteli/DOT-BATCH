@@ -10,6 +10,11 @@ Top courses:
 https://codehelp-top-courses.netlify.app/
 
 
+Plan with love:
+
+https://plan-with-love.netlify.app/
+
+
 Tic-tac-toe app:
 
 https://codehelp-tictactoe.netlify.app
