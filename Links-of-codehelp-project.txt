@@ -1,5 +1,10 @@
 
 
+Figma link of major project :
+
+https://www.figma.com/file/Mikd0FjHKAofUlWQSi70nf/StudyNotion-shared?node-id=501-4889
+
+
 Shopping website:
 
 https://codehelp-shopping-cart.netlify.app/
