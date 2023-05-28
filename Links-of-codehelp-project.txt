@@ -1,5 +1,10 @@
 
 
+Postman file of Mega project: 
+
+https://documenter.getpostman.com/view/24441701/2s93kz6REm
+
+
 Figma link of major project :
 
 https://www.figma.com/file/Mikd0FjHKAofUlWQSi70nf/StudyNotion_shared?type=design&node-id=1-5&t=qe3gWFLXQWrrJh1W-0
