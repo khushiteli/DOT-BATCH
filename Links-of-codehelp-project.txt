@@ -10,6 +10,11 @@ Figma link of major project :
 https://www.figma.com/file/Mikd0FjHKAofUlWQSi70nf/StudyNotion_shared?type=design&node-id=1-5&t=qe3gWFLXQWrrJh1W-0
 
 
+StudyNotion Project description:-
+
+https://docs.google.com/document/d/19OZY8J9eDFGxU7w-xrXKS89KYI7EmWqz/edit#heading=h.gjdgxs
+
+
 Shopping website:
 
 https://codehelp-shopping-cart.netlify.app/
@@ -119,11 +124,3 @@ Parallax Website:
 
 https://codehelp-parallax-website.netlify.app/
 
-
-StudyNotion Project description:-
-
-https://docs.google.com/document/d/19OZY8J9eDFGxU7w-xrXKS89KYI7EmWqz/edit#heading=h.gjdgxs
-
-StudyNotion Project Figma file:
-
-https://www.figma.com/file/Mikd0FjHKAofUlWQSi70nf/StudyNotion_shared?type=design&node-id=0-1&t=GJbVueSr37nX9DXl-0
