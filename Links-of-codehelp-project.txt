@@ -1,4 +1,9 @@
 
+StudyNotion live link:
+
+https://studynotion-edtech-project.vercel.app/
+
+
 
 Postman file of Mega project: 
 
